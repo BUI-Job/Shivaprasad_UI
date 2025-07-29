@@ -1,0 +1,129 @@
+
+header{
+    display: flex;
+    justify-content:space-between;
+    border-bottom: 1px solid black;
+    background-color: lightgray;
+}
+.cpy-dtl{
+    display: flex;
+}
+.cpy-dtl>img{
+      width: 100px;
+      height: 50px;
+      margin-right: 10px;
+      margin-top: 2px;
+}
+.cpy-dtl>h5{
+    margin-top: 17px;
+}
+#navbar{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    padding-top: 15px;
+}
+.contact-us{
+    cursor: pointer;
+}
+hero{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     margin-left: 100px;
+     border: 1px solid back;
+     border-radius: 5px;
+     background-color: lightgoldenrodyellow;
+     margin: 20px;
+     padding: 10px;
+}
+hero>button{
+    width: 200px;
+    height: 30px;
+}
+service{
+    display: flex;
+    justify-content: space-around;
+}
+service>card>img{
+    width: 200px;
+    height: 70px;
+}
+service>card{
+    padding: 10px;
+    width: 250px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid black;
+    background-color: lightgreen;
+    border-radius: 10px;
+    margin:20px;
+}
+.contact{
+    background-color:lightblue;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-left: 450px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+input{
+    width: 300px;
+}
+select{
+    width: 300px;
+}
+textarea{
+    width: 300px;
+    height:200px;
+}
+.contact > button{
+    margin-top: 10px;
+     width: 100px;
+}
+@media screen and (max-width:568px) { 
+service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+   }  
+   .contact{
+     margin-left: 30px;
+     width:200px;
+     height:200px;
+   }
+   input{
+    width: 150px;
+   }
+   textarea{
+   height: 300px;
+   width: 150px;
+   }
+   select{
+    width:150px;
+   }
+
+   #navbar{
+    flex-direction: column;
+   }
+   header{
+    height: 100px;
+   }
+   .cpy-dtl{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+}
